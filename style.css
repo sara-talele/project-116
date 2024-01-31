@@ -1,0 +1,40 @@
+.heading {
+    font-size: 35px;
+    width: 80%;
+    color: black;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn-success:hover {
+    background-color: red;
+    font-size: 20px;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 38px red;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px yellow;
+    }
+}
+
+.footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: aqua;
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 2;
+}
